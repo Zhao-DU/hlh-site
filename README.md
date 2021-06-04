@@ -1,19 +1,11 @@
 # laughing-octo-potato
 
 
-## Features 
+## Root Folders 
 
--Some modification for test
-
-
--more modifications for test @3:21 online
-
-## Frameworks
-
--Modification for pullrequest @5:53
-
-more modifications for MAIN
-
-## Frameworks
-
--Local modification on main @3:15PM
+- react 
+    - Front end react application 
+- nodejs 
+    - Backend with Node.js and react 
+- data 
+    - Data analysis scripts using python 

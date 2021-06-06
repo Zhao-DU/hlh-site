@@ -1,5 +1,10 @@
 # laughing-octo-potato
 
+- To run the react app follow these steps , 
+  - clone the repo using `git clone`
+  - navigate to folder 
+  - run `npm install` to instal node modules
+  - run `npm start` to start the service on `localhost:8000`
 
 ## Root Folders 
 

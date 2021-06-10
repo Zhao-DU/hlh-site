@@ -3,6 +3,7 @@
 	- `NodeJS LTS v14.x and npm 6.14.x
 2. Download/Install MongoDB from https://www.mongodb.com/try/download/community 
 	- v.4.4
+	- Also get compass for a workbench of the database to inspect content etc. 
 3. Download Anaconda/miniconda 
 	- v4.9+
 	- Python version should be managed through virtual env using `conda env`

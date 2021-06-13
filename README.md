@@ -11,14 +11,18 @@
 
 ## Run the react app frontend 
 1. navigate to `react` 
-2. run `npm install` to instal node modules
+2. run `npm install` to install node modules
 3. run `npm start` to start the service on `localhost:8000` 
 
 
 ## Start the Node/Express server
-1. navigate to `react` 
-2. run `npm install` to instal node modules
-3. run `npm start` to host on `localhost:3000` 
+1. navigate to `nodejs` 
+2. run `npm install` to install node modules
+3. run `npm start` to host express server on `localhost:3001` and connect to database at `localhost:27017` (Look for confirmation in shell) 
+
+### Building the TS files into JS 
+1. navigate to `nodejs`
+2. run `npm run build` to build typescript into JS using tsc
 
 ## Host/connect MongoDB locally
 1. (On windows) cd to `${mongodb_install_dir}/bin`

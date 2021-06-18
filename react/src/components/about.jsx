@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome'
 
 export default class About extends Component {
   render() {
@@ -40,7 +39,7 @@ export default class About extends Component {
                     <div className="desc">
                         <h3>Websites? </h3>
                         <p>Read more about HLH here?</p>
-                        <p><a className="btn btn-primary btn-learn" href="" target="_blank" rel="noopener noreferrer">LINKS<i className="icon-download4" /></a></p>
+                        <p><a className="btn btn-primary btn-learn" href="#what" target="_blank" rel="noopener noreferrer">LINKS<i className="icon-download4" /></a></p>
                     </div>
                     </div>
                 </div>
@@ -52,7 +51,7 @@ export default class About extends Component {
                     <div className="desc">
                         <h3>Hear from others?</h3>
                         <p>Stories of people who have this disease?</p>
-                        <p><a className="btn btn-primary btn-learn" href="" target="_blank" rel="noopener noreferrer">LINK<i className="icon-download4" /></a></p>
+                        <p><a className="btn btn-primary btn-learn" href="#what" target="_blank" rel="noopener noreferrer">LINK<i className="icon-download4" /></a></p>
                     </div>
                     </div>
                 </div>
@@ -64,7 +63,7 @@ export default class About extends Component {
                     <div className="desc">
                         <h3>The science?</h3>
                         <p>Here are some studies on HLH condition and scientific info?</p>
-                        <p><a className="btn btn-primary btn-learn" href="" target="_blank" rel="noopener noreferrer">LINK<i className="icon-download4" /></a></p>
+                        <p><a className="btn btn-primary btn-learn" href="#what" target="_blank" rel="noopener noreferrer">LINK<i className="icon-download4" /></a></p>
                     </div>
                     </div>
                 </div>

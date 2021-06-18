@@ -230,7 +230,7 @@
 
 	};
 
-	var stickyFunction = function() {
+	/*var stickyFunction = function() {
 
 		var h = $('.image-content').outerHeight();
 
@@ -266,7 +266,7 @@
 
 		$("#sticky_item").stick_in_parent();
 
-	};
+	};*/
 
 	var owlCrouselFeatureSlide = function() {
 		$('.owl-carousel').owlCarousel({
@@ -302,7 +302,7 @@
 
 		mobileMenuOutsideClick();
 		sliderMain();
-		stickyFunction();
+		//stickyFunction();
 		owlCrouselFeatureSlide();
 	});
 

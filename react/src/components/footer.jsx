@@ -1,44 +1,37 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
+import { ThemeProvider } from "@material-ui/core";
+import { createMuiTheme } from '@material-ui/core/styles';
 
-const FooterPage = () => {
+const theme = createMuiTheme({
+  typography: {
+    // In Chinese and Japanese the characters are usually larger,
+    // so a smaller fontsize may be appropriate.
+    fontSize: 23,
+  },
+});
+
+function Copyright() {
   return (
-    <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
-          </MDBCol>
-          <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-      <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
-        </MDBContainer>
-      </div>
-    </MDBFooter>
+    <ThemeProvider theme={theme}>
+      <Typography variant="body2" color="textSecondary">
+        {'Copyright © '}
+        <Link color="inherit" href="https://material-ui.com/">
+          Your Website
+        </Link>{' '}
+        {new Date().getFullYear()}
+        {'.'}
+      </Typography>
+    </ThemeProvider>
   );
 }
 
-export default FooterPage;
+const Footer = () => (
+  <div className="footer">
+    <p style={{textAlign:"center"}}>This is some content in footer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p style={{textAlign:"center"}}> <Copyright/> </p>
+  </div>
+);
+
+export default Footer;

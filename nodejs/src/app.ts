@@ -19,7 +19,6 @@ class App {
 
     private middlewares(middleWares: { forEach: (arg0: (middleWare: any) => void) => void; }) {
         middleWares.forEach(middleWare => {
-            console.log(middleWare);
             this.app.use(middleWare);
         })
     }
@@ -41,7 +40,7 @@ class App {
 
     public listen() {
         this.app.listen(this.port, () => {
-            console.log(`App listening on the http://localhost:${this.port}`);
+            console.log(`App listening on http://${this.host}:${this.port}`);
         })
     }
 }

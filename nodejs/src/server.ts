@@ -18,15 +18,13 @@ export const EXPRESS_PORT: number = 3001;
 export const URI: string = 'localhost';
 export const DB_URI: string = 'mongodb://localhost:27017/hlh'
 
-// db_tests.testConnection();
-// db_tests.createTestData();
-// db_tests.testCustomMethods();
-// db_tests.deleteTestData();
 
+connect();
+db_tests.runTests();
 
 const app = new App({
   host: URI,
-  port: 5000,
+  port: EXPRESS_PORT,
   controllers: [
     new HomeController(),
     new userController()
@@ -36,8 +34,5 @@ const app = new App({
       express.urlencoded({ extended: true })
   ]
 });
-
-
-// app.get('/', (req,res) => res.send('Express + TypeScript Server'));
 
 app.listen();

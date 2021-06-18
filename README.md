@@ -20,7 +20,7 @@
 2. run `npm install` to install node modules
 3. run `npm start` to host express server on `localhost:3001` and connect to database at `localhost:27017` (Look for confirmation in shell) 
 
-### Building the TS files into JS 
+### Building the TS files into JS (Not necessary at the moment)
 1. navigate to `nodejs`
 2. run `npm run build` to build typescript into JS using tsc
 
@@ -30,6 +30,11 @@
 	- Note if using git-bash need to use `./mongod` instead and so forth 
 3. Open another terminal to `${mongodb_install_dir}/bin`
 4. Connect to db REPL shell using `mongo`
+
+## Set-up anaconda environment 
+1. Navigate to the folder containing the `.yml` file
+2. Use the `conda env create -f ${filename}` command to create environment (see https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+
 
 ## Root Folders 
 - react 

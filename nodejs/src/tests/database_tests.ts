@@ -1,11 +1,22 @@
 import Mongoose from "mongoose";
 import { DB_URI } from '../server';
 import { UserModel } from "../database/users/users.model";
-import { connect, disconnect } from "../database/database"
 
 let database: Mongoose.Connection;
 
-export const testConnection = () => {
+export const runTests = async () => {
+  try { 
+    await testConnection();
+    await createTestData();
+    await testCustomMethods();
+    await deleteTestData();
+  } catch (err){
+    console.log(err);
+  }
+};
+
+
+export const testConnection = async () => {
 
     database = Mongoose.connection;
 
@@ -18,7 +29,6 @@ export const testConnection = () => {
 };
 
 export const createTestData = async () => {
-  connect();
   const users = [
     { firstName: "Emma", lastName: "Bradley", age: 34 },
     { firstName: "Elise", lastName: "Conner", age: 62 },
@@ -36,25 +46,21 @@ export const createTestData = async () => {
       await UserModel.create(user);
       console.log(`Created user ${user.firstName} ${user.lastName}`);
     }
-    disconnect();
   } catch (e) {
     console.error(e);
   }
 };
 
 export const deleteTestData = async () => {
-    connect();
     try {
         await UserModel.deleteMany({});
         console.log(`Deleted all users`);
-        disconnect();
     } catch (e) {
       console.error(e);
     }
   };
 
 export const testCustomMethods = async () => {
-    connect();
     // test static methods
     const twenties = await UserModel.findByAge(20, 29);
     const newUser = await UserModel.findOneOrCreate({
@@ -73,5 +79,4 @@ export const testCustomMethods = async () => {
     await existingUser.setLastUpdated();
     const siblings = await existingUser.sameLastName();
     console.log({ siblings });
-    disconnect();
   };

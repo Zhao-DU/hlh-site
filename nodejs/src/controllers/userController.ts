@@ -2,6 +2,9 @@ import express, { Router } from 'express';
 import { Request, Response } from 'express';
 import IControllerBase from './interfaces/IControllerBase.interface';
 
+// model 
+import { UserModel } from "../database/users/users.model";
+
 class UserController {
     public path: string = '/users';
     public router = express.Router();
@@ -16,11 +19,41 @@ class UserController {
         // implement code for handling requests 
         this.router.route('/')
         .get(async (req, res, next) => {
-            res.statusCode = 200;
-            res.setHeader('Content-Type', 'application/json');
-            res.end('GET REQUEST on users');
-        });
-        
+            try {
+                const usersGet = await UserModel.find({});
+                res.statusCode = 200;
+                res.setHeader('Content-Type', 'application/json');
+                res.json(usersGet);
+            } catch(err: any){
+                next(err);
+            }
+        })
+        .post(async (req, res, next) => {
+            try {
+                const userPost = await UserModel.create(req.body);                
+                console.log('User created', userPost);
+                    res.statusCode = 200;
+                    res.setHeader('Content-Type', 'application/json');
+                    res.json(userPost);
+            } catch(err: any){
+                next(err);
+            }
+        })
+        .put(async (req, res, next) => {
+            res.statusCode = 403;
+            res.end('Put operation not supported on /users');
+        })
+        .delete(async (req, res, next) => {
+            try {
+                const userDelete = await UserModel.remove({});                
+                console.log('Delete all users', userDelete);
+                    res.statusCode = 200;
+                    res.setHeader('Content-Type', 'application/json');
+                    res.json(userDelete);
+            } catch(err: any){
+                next(err);
+            }
+        });      
     }
 
 }

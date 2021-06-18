@@ -8,8 +8,8 @@ export const runTests = async () => {
   try { 
     await testConnection();
     await createTestData();
-    await testCustomMethods();
-    await deleteTestData();
+    // await testCustomMethods();
+    // await deleteTestData();
   } catch (err){
     console.log(err);
   }

@@ -72,21 +72,15 @@ export default function CustomizedDialogs() {
     <ThemeProvider theme={theme}>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open} >        
         <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-          LEGAL SHITE
+          TERMS OF USAGE
         </DialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-            in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            While we strive to ensure the accuracy of the information available on this site, it is not intended to be professional advice and is not intended to replace personal consultation with a qualified physician, pharmacist, or other health care professional. 
+            The reader should not disregard medical advice or delay seeking it because of something found on this site. The reader is advised to also consult local medical sources.
           </Typography>
           <Typography gutterBottom>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-            lacus vel augue laoreet rutrum faucibus dolor auctor.
-          </Typography>
-          <Typography gutterBottom>
-            Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-            scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-            auctor fringilla.
+            By using xyz.com, you agree that xyz.com and its creators will not be held liable for any decisions made as a result of the information being made available.
           </Typography>
         </DialogContent>
         <DialogActions>

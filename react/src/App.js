@@ -3,10 +3,13 @@ import './App.css';
 import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'
-import Timeline from './components/timeline'
+import Causes from './components/causes'
 import Footer from './components/footer'
 import Header from './components/header'
 import Dialog from './components/dialog'
+import Resources from './components/resources';
+import Treatment from './components/treatment';
+import Diagnosis from './components/diagnosis';
 
 
 class App extends Component {	
@@ -29,8 +32,11 @@ class App extends Component {
 						<Header/>
 						<Introduction/>
 						<Dialog/>
-						<About/>
-						<Timeline/>		
+						<About/>						
+						<Causes/>
+						<Diagnosis/>
+						<Treatment/>
+						<Resources/>
 						<Footer/>
 					</div>					
 				</div>

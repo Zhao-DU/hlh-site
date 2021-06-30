@@ -1,0 +1,509 @@
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation Status="In-Data-Review" Owner="NLM">
+<PMID Version="1">34093521</PMID>
+<DateRevised>
+<Year>2021</Year>
+<Month>06</Month>
+<Day>08</Day>
+</DateRevised>
+<Article PubModel="Electronic-eCollection">
+<Journal>
+<ISSN IssnType="Electronic">1664-3224</ISSN>
+<JournalIssue CitedMedium="Internet">
+<Volume>12</Volume>
+<PubDate>
+<Year>2021</Year>
+</PubDate>
+</JournalIssue>
+<Title>Frontiers in immunology</Title>
+<ISOAbbreviation>Front Immunol</ISOAbbreviation>
+</Journal>
+<ArticleTitle>
+<i>Mitf</i>
+Involved in Innate Immunity by Activating Tyrosinase-Mediated Melanin Synthesis in
+<i>Pteria penguin</i>
+.
+</ArticleTitle>
+<Pagination>
+<MedlinePgn>626493</MedlinePgn>
+</Pagination>
+<ELocationID EIdType="doi" ValidYN="Y">10.3389/fimmu.2021.626493</ELocationID>
+<Abstract>
+<AbstractText>
+The microphthalmia-associated transcription factor (MITF) is an important transcription factor that plays a key role in melanogenesis, cell proliferation, survival and immune defense in vertebrate. However, its function and function mechanism in bivalve are still rarely known. In this research, first, a
+<i>Mitf</i>
+gene was characterized from
+<i>Pteria penguin</i>
+(
+<i>P. penguin</i>
+). The
+<i>PpMitf</i>
+contained an open reading frame of 1,350 bp, encoding a peptide of 449 deduced amino acids with a highly conserved basic helix-loop-helix-leucine zipper (bHLH-LZ) domain. The PpMITF shared 55.7% identity with amino acid sequence of
+<i>Crassostrea gigas</i>
+(
+<i>C. gigas</i>
+). Tissue distribution analysis revealed that
+<i>PpMitf</i>
+was highly expressed in mantle and hemocytes, which were important tissues for color formation and innate immunity. Second, the functions of
+<i>PpMitf</i>
+in melanin synthesis and innate immunity were identified. The
+<i>PpMitf</i>
+silencing significantly decreased the tyrosinase activity and melanin content, indicating
+<i>PpMitf</i>
+involved in melanin synthesis of
+<i>P. penguin.</i>
+Meanwhile, the
+<i>PpMitf</i>
+silencing clearly down-regulated the expression of
+<i>PpBcl2</i>
+(B cell lymphoma/leukemia-2 gene) and antibacterial activity of hemolymph supernatant, indicating that
+<i>PpMitf</i>
+involved in innate immunity of
+<i>P. penguin.</i>
+Third, the function mechanism of
+<i>PpMitf</i>
+in immunity was analyzed. The promoter sequence analysis of tyrosinase (
+<i>Tyr</i>
+) revealed two highly conserved E-box elements, which were specifically recognized by HLH-LZ of MITF. The luciferase activities analysis showed that
+<i>Mitf</i>
+could activate the E-box in
+<i>Tyr</i>
+promoter through highly conserved bHLH-LZ domain, and demonstrated that
+<i>PpMitf</i>
+involved in melanin synthesis and innate immunity by regulating tyrosinase expression. Finally, melanin from
+<i>P. penguin</i>
+, the final production of
+<i>Mitf</i>
+-
+<i>Tyr</i>
+-melanin pathway, was confirmed to have direct antibacterial activity. The results collectively demonstrated that
+<i>PpMitf</i>
+played a key role in innate immunity through activating tyrosinase-mediated melanin synthesis in
+<i>P. penguin.</i>
+</AbstractText>
+<CopyrightInformation>Copyright © 2021 Yu, Lu, Zhong, Qu, Wang, Yu and Chen.</CopyrightInformation>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Yu</LastName>
+<ForeName>Feifei</ForeName>
+<Initials>F</Initials>
+<AffiliationInfo>
+<Affiliation>Fishery College, Guangdong Ocean University, Zhanjiang, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+<Author ValidYN="Y">
+<LastName>Lu</LastName>
+<ForeName>Yishan</ForeName>
+<Initials>Y</Initials>
+<AffiliationInfo>
+<Affiliation>Fishery College, Guangdong Ocean University, Zhanjiang, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+<Author ValidYN="Y">
+<LastName>Zhong</LastName>
+<ForeName>Zhiming</ForeName>
+<Initials>Z</Initials>
+<AffiliationInfo>
+<Affiliation>Fishery College, Guangdong Ocean University, Zhanjiang, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+<Author ValidYN="Y">
+<LastName>Qu</LastName>
+<ForeName>Bingliang</ForeName>
+<Initials>B</Initials>
+<AffiliationInfo>
+<Affiliation>Faculty of Chemistry and Environmental Science, Guangdong Ocean University, Zhanjiang, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+<Author ValidYN="Y">
+<LastName>Wang</LastName>
+<ForeName>Meifang</ForeName>
+<Initials>M</Initials>
+<AffiliationInfo>
+<Affiliation>Ocean College, South China Agriculture University, Guangzhou, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+<Author ValidYN="Y">
+<LastName>Yu</LastName>
+<ForeName>Xiangyong</ForeName>
+<Initials>X</Initials>
+<AffiliationInfo>
+<Affiliation>Ocean College, South China Agriculture University, Guangzhou, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+<Author ValidYN="Y">
+<LastName>Chen</LastName>
+<ForeName>Jiayu</ForeName>
+<Initials>J</Initials>
+<AffiliationInfo>
+<Affiliation>Fishery College, Guangdong Ocean University, Zhanjiang, China.</Affiliation>
+</AffiliationInfo>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+<ArticleDate DateType="Electronic">
+<Year>2021</Year>
+<Month>05</Month>
+<Day>20</Day>
+</ArticleDate>
+</Article>
+<MedlineJournalInfo>
+<Country>Switzerland</Country>
+<MedlineTA>Front Immunol</MedlineTA>
+<NlmUniqueID>101560960</NlmUniqueID>
+<ISSNLinking>1664-3224</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<KeywordList Owner="NOTNLM">
+<Keyword MajorTopicYN="N">Mitf</Keyword>
+<Keyword MajorTopicYN="N">Pteria penguin</Keyword>
+<Keyword MajorTopicYN="N">innate immunity</Keyword>
+<Keyword MajorTopicYN="N">melanin</Keyword>
+<Keyword MajorTopicYN="N">tyrosinase</Keyword>
+</KeywordList>
+<CoiStatement>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</CoiStatement>
+</MedlineCitation>
+<PubmedData>
+<History>
+<PubMedPubDate PubStatus="received">
+<Year>2021</Year>
+<Month>01</Month>
+<Day>27</Day>
+</PubMedPubDate>
+<PubMedPubDate PubStatus="accepted">
+<Year>2021</Year>
+<Month>05</Month>
+<Day>04</Day>
+</PubMedPubDate>
+<PubMedPubDate PubStatus="entrez">
+<Year>2021</Year>
+<Month>6</Month>
+<Day>7</Day>
+<Hour>5</Hour>
+<Minute>50</Minute>
+</PubMedPubDate>
+<PubMedPubDate PubStatus="pubmed">
+<Year>2021</Year>
+<Month>6</Month>
+<Day>8</Day>
+<Hour>6</Hour>
+<Minute>0</Minute>
+</PubMedPubDate>
+<PubMedPubDate PubStatus="medline">
+<Year>2021</Year>
+<Month>6</Month>
+<Day>8</Day>
+<Hour>6</Hour>
+<Minute>0</Minute>
+</PubMedPubDate>
+</History>
+<PublicationStatus>epublish</PublicationStatus>
+<ArticleIdList>
+<ArticleId IdType="pubmed">34093521</ArticleId>
+<ArticleId IdType="doi">10.3389/fimmu.2021.626493</ArticleId>
+<ArticleId IdType="pmc">PMC8173187</ArticleId>
+</ArticleIdList>
+<ReferenceList>
+<Reference>
+<Citation>Cell Mol Life Sci. 2015 Apr;72(7):1249-60</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">25433395</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>J Orthop Surg Res. 2020 Feb 21;15(1):66</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">32085781</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Mol Immunol. 2009 Sep;46(15):3131-40</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">19573926</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>PLoS One. 2015 Dec 22;10(12):e0145257</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">26693729</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>J Pharmacol Exp Ther. 1996 Feb;276(2):765-9</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">8632348</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Cell Rep. 2019 Apr 23;27(4):1050-1061.e3</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">31018123</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Eur J Med Chem. 2020 Feb 1;187:111892</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">31810785</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Enzyme Res. 2014;2014:780549</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">24818013</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Mol Immunol. 2019 May;109:88-98</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">30909122</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Cancer Cell. 2004 Dec;6(6):565-76</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">15607961</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Proc Natl Acad Sci U S A. 1991 May 1;88(9):3777-81</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">1902569</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Pigment Cell Res. 1997 Jun;10(3):127-38</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">9266599</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Annu Rev Genet. 2004;38:365-411</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">15568981</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Pigment Cell Melanoma Res. 2010 Feb;23(1):27-40</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">19995375</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>J Invest Dermatol. 2010 Mar;130(3):784-92</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">19759547</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Postepy Hig Med Dosw (Online). 2016 Jun 30;70(0):695-708</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">27356601</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Dev Comp Immunol. 2014 Oct;46(2):530-6</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">24699445</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Biol Rev Camb Philos Soc. 2011 Nov;86(4):885-99</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">21443614</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Front Immunol. 2019 Jul 04;10:1547</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">31333673</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Fish Shellfish Immunol. 2012 Aug;33(2):375-81</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">22659617</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Biomed Environ Sci. 2020 Jul 20;33(7):471-483</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">32807266</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Int J Mol Sci. 2018 Nov 22;19(12):</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">30469474</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Comp Biochem Physiol B Biochem Mol Biol. 2018 Nov;225:75-83</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">30031885</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Gene. 2019 Mar 10;688:155-162</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">30552980</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Transplantation. 2019 Apr;103(4):724-732</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">30801519</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Insect Biochem Mol Biol. 2010 Mar;40(3):166-78</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">19932179</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Mol Med Rep. 2013 Sep;8(3):719-25</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">23900739</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>J Chromatogr B Analyt Technol Biomed Life Sci. 2005 Nov 5;826(1-2):31-40</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">16139575</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Spectrochim Acta A Mol Biomol Spectrosc. 2015 Mar 5;138:723-35</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">25544188</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Pigment Cell Melanoma Res. 2011 Aug;24(4):605-13</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">21535429</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Zhong Nan Da Xue Xue Bao Yi Xue Ban. 2018 May 28;43(5):461-468</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">29886459</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Nature. 2015 Aug 20;524(7565):361-5</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">26168401</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Nature. 2005 Feb 24;433(7028):884-7</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">15729346</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Nature. 2003 Sep 4;425(6953):37-8</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">12955131</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Fish Shellfish Immunol. 2012 Jan;32(1):61-8</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">22056399</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Nature. 2018 Mar 15;555(7696):382-386</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">29489751</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>FASEB J. 2009 Mar;23(3):835-43</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">18971261</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Fish Shellfish Immunol. 2013 Apr;34(4):990-1001</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">22960099</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Fish Shellfish Immunol. 2017 Sep;68:466-473</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">28734968</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Fish Shellfish Immunol. 2020 Mar;98:1017-1023</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">31743760</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>EMBO J. 2018 Jun 1;37(11):</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">29764979</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Sci Signal. 2015 Sep 01;8(392):ra87</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">26329581</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Nature. 2010 Jun 3;465(7298):577-83</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">20520707</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Genes Dev. 2019 Aug 1;33(15-16):983-1007</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">31123060</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Cell. 2002 Jun 14;109(6):707-18</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">12086670</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Cell Mol Life Sci. 2010 Aug;67(15):2591-603</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">20229234</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Pigment Cell Melanoma Res. 2017 Sep;30(5):454-466</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">28649789</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Proc Natl Acad Sci U S A. 2001 May 8;98(10):5798-803</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">11331755</ArticleId>
+</ArticleIdList>
+</Reference>
+<Reference>
+<Citation>Gene. 2018 May 20;656:1-8</Citation>
+<ArticleIdList>
+<ArticleId IdType="pubmed">29496552</ArticleId>
+</ArticleIdList>
+</Reference>
+</ReferenceList>
+</PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>

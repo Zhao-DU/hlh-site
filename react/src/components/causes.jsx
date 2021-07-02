@@ -21,8 +21,10 @@ export default class Causes extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Timeline item 1 <span>2019-present</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <h2>Primary HLH<span></span></h2>
+                        <p>Gene mutations that cause primary HLH are present at birth.</p>
+                        <p>Primary HLH will manifest in the early years of those affected.</p>
+                        <p>It is usually fatal within a few months, unless a bone marrow transplant is performed.</p>
                       </div>
                     </div>
                   </article>
@@ -32,19 +34,9 @@ export default class Causes extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Timeline item 2 <span>2015-2019</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Timeline item 3 <span>2003-2015</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+                        <h2>Secondary HLH<span></span></h2>
+                        <p>Secondary HLH is trigged by a infection or cancer</p>
+                        <p>Some patients have medical conditions that predispose them to secondary HLH, such as rheumatologic diseases or immune deficiences.</p>
                       </div>
                     </div>
                   </article>

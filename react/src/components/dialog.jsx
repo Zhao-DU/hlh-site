@@ -80,7 +80,7 @@ export default function CustomizedDialogs() {
             The reader should not disregard medical advice or delay seeking it because of something found on this site. The reader is advised to also consult local medical sources.
           </Typography>
           <Typography gutterBottom>
-            By using xyz.com, you agree that xyz.com and its creators will not be held liable for any decisions made as a result of the information being made available.
+            <b>By using fighthlh.com, you agree that fighthlh.com and its creators will not be held liable for any decisions made as a result of the information being made available here .</b>
           </Typography>
         </DialogContent>
         <DialogActions>

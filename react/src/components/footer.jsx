@@ -18,7 +18,7 @@ function Copyright() {
       <Typography variant="body2" color="textSecondary">
         {'Copyright © '}
         <Link color="inherit" href="https://material-ui.com/">
-          Your Website
+          fighthlh.com
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
@@ -29,7 +29,7 @@ function Copyright() {
 
 const Footer = () => (
   <div className="footer">
-    <p style={{textAlign:"center"}}>This is some content in footer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p style={{textAlign:"center"}}>.</p>
       <p style={{textAlign:"center"}}> <Copyright/> </p>
   </div>
 );

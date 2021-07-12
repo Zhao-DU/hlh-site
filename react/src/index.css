@@ -11,19 +11,22 @@ body {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(64, 152, 235);
+  background-color: rgb(45, 49, 51);
   position: static;
   bottom: 0;
   left: 0;
-  width: 100%;  
+  width: 100%;
+  color: aliceblue;
 }
 
 .header{  
-  background-color: rgb(64, 152, 235);
+  background-color: rgb(45, 49, 51);
   position: static;
   top: 0;
   left: 0;
-  width: 100%;  
+  width: 100%;
+  color: aliceblue;
+  min-height: 50px;
 }
 
 .title{
@@ -31,12 +34,16 @@ body {
 }
 
 .diagnosis{  
-  background-color:antiquewhite;
+  background-color:rgb(152, 227, 250);
   position: static;
   top: 0;
   left: 0;
   width: 100%;
   font-size: 1.75rem;
+}
+
+.about{
+  background-color:rgb(159, 217, 233);
 }
 
 code {

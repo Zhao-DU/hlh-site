@@ -9,13 +9,14 @@ const theme = createMuiTheme({
     // In Chinese and Japanese the characters are usually larger,
     // so a smaller fontsize may be appropriate.
     fontSize: 23,
+    color: "#f0f8ff"
   },
 });
 
 function Copyright() {
   return (
     <ThemeProvider theme={theme}>
-      <Typography variant="body2" color="textSecondary">
+      <Typography variant="body2" >
         {'Copyright © '}
         <Link color="inherit" href="https://material-ui.com/">
           fighthlh.com
